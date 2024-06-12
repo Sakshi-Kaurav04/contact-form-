@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+    min-height: 100vh;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 5% auto;
+    padding: 75px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 28px;
+}
+
+.form_grp input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+
+    .form_grp input {
+        font-size: 20px;
+    }
+
+    .container button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px;
+    }
+
+    .form_grp input {
+        font-size: 18px;
+    }
+
+    .container button {
+        font-size: 16px;
+    }
+}
+
+.map-container {
+    
+    margin-top: 50px; /* Space between form and map */
+}
